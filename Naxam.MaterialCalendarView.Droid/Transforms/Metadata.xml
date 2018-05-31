@@ -1,9 +1,34 @@
 ﻿<metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+  <attr
+    path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='CalendarPagerAdapter']"
+    name="visibility">
+    public
+  </attr>
+  <attr
+    path="/api/package[@name='com.prolificinteractive.materialcalendarview']/interface[@name='DateRangeIndex']"
+    name="visibility">
+    public
+  </attr>
+  <attr
+    path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='CalendarPagerView']"
+    name="visibility">
+    public
+  </attr>
+  <attr
+    path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='CalendarPagerView.LayoutParams']"
+    name="visibility">
+    public
+  </attr>
+  <attr
+    path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='DayView']"
+    name="visibility">
+    public
+  </attr>
+  <remove-node
+    path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='WeekPagerAdapter']/method[@name='getSelectedDates' and count(parameter)=0]"/>
+  <remove-node
+    path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='WeekView']/method[@name='setSelectedDates' and count(parameter)=1 and parameter[1][@type='java.util.Collection']]"/>
+  <remove-node
+    path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='WeekPagerAdapter']/method[@name='setDecorators' and count(parameter)=1 and parameter[1][@type='java.util.List']]"/>
+
 </metadata>

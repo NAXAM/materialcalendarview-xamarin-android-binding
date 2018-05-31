@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.MaterialCalendarView.Droid</id>
+        <version>1.5.0</version>
+        <authors>NAXAM</authors>
+        <owners>NAXAM COMPANY LIMITED</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - MaterialCalendarView Android</title>
+        <summary>MaterialCalendarView Android 1.5.0</summary>
+        <description>Naxam Controls Library - MaterialCalendarView Android</description>
+        <iconUrl>https://avatars2.githubusercontent.com/u/1280427?s=200</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/materialcalendarview-xamarin-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017-present NAXAM</copyright>
+        <tags>xamarin, Xamarin.Android, MaterialCalendarView</tags>
+        <dependencies>
+            <dependency id="Xamarin.Android.Support.v4" version="27.0.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Naxam.MaterialCalendarView.Droid/bin/Release/Naxam.MaterialCalendarView.Droid.dll" target="lib/MonoAndroid10/Naxam.MaterialCalendarView.Droid.dll" />
+    </files>
+</package>

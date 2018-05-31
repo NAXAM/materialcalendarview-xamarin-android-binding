@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.MaterialCalendarView.Droid", "Naxam.MaterialCalendarView.Droid\Naxam.MaterialCalendarView.Droid.csproj", "{296119DA-004D-4E4E-B4F1-AFB08B2976B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{75AD8979-7893-4BCD-BF58-DAD57FB6552B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MaterialCalendarViewQs", "MaterialCalendarViewQs", "{7D479C80-BC0A-44BB-80D3-14FE17DB1D77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,18 @@ Global
 		{296119DA-004D-4E4E-B4F1-AFB08B2976B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{296119DA-004D-4E4E-B4F1-AFB08B2976B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{296119DA-004D-4E4E-B4F1-AFB08B2976B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75AD8979-7893-4BCD-BF58-DAD57FB6552B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75AD8979-7893-4BCD-BF58-DAD57FB6552B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75AD8979-7893-4BCD-BF58-DAD57FB6552B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{75AD8979-7893-4BCD-BF58-DAD57FB6552B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75AD8979-7893-4BCD-BF58-DAD57FB6552B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75AD8979-7893-4BCD-BF58-DAD57FB6552B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75AD8979-7893-4BCD-BF58-DAD57FB6552B} = {7D479C80-BC0A-44BB-80D3-14FE17DB1D77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52A91132-F85D-433F-9A77-64EA808E9E3E}
